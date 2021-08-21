@@ -18,9 +18,11 @@ export const WrapHeader = styled.header`
   nav ul li a {
     text-decoration: none;
     color: white;
+    padding: 1rem;
   }
   nav ul li a:hover {
-    color: blue;
-    font-weight: bold;
+    color: black;
+    background: green;
+    border-radius: 8px;
   }
 `;

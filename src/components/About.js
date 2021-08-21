@@ -3,13 +3,14 @@ import WrapAbout from "../styles/About.styled";
 const About = () => {
   return (
     <WrapAbout id="about">
-      <h2>Hi, My name is Mu'Tasim Billah</h2>
-      <p>About me</p>
+      <h2>Hi, My name is Mu'Tasim Billah a Frontend Developer</h2>
+      <h4>About me</h4>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae id libero
-        eaque autem magnam, est, officia accusantium error necessitatibus
-        consequuntur at doloremque perspiciatis nisi inventore. Quo autem amet
-        animi aperiam.
+        I am from Blitar, i have a strong passion in programming and learn a new
+        technology. I am really like to learn programming from tutorial on
+        youtube or other developer blog and implementation what i have learn to
+        code. Outside my programming activity i use my time to learn a new
+        language from duolingo.
       </p>
     </WrapAbout>
   );
