@@ -1,11 +1,15 @@
 import styled from "styled-components";
 
 const WrapContact = styled.div`
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
   padding: 2rem 1rem;
-  height: 100vh;
+  height: 80vh;
+  border-top: 1px solid black;
   .btn {
-    margin-right: 1rem;
+    margin: 1rem;
     padding: 1rem;
     border: none;
     background: green;

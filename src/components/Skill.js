@@ -1,45 +1,38 @@
-import {
-  FaHtml5,
-  FaCss3Alt,
-  FaReact,
-  FaGithub,
-  FaPython,
-} from "react-icons/fa";
-import {
-  SiJavascript,
-  SiNextDotJs,
-  SiNodeDotJs,
-  SiMongodb,
-  SiTypescript,
-  SiVisualstudiocode,
-  SiGo,
-} from "react-icons/si";
+import * as Fa from "react-icons/fa";
+import * as Si from "react-icons/si";
+import { IconContext } from "react-icons";
 import WrapSkill from "../styles/Skill.styled";
 
 const Skill = () => {
   return (
     <WrapSkill id="skill">
-      <p>Skill and technologies that i used</p>
+      <h3>Skill and technologies that i used</h3>
       <div>
         <h3>Advanced</h3>
-        <FaHtml5 />
-        <FaCss3Alt />
-        <SiJavascript />
-        <FaReact />
+        <IconContext.Provider value={{ className: "icon" }}>
+          <Fa.FaHtml5 />
+          <Fa.FaCss3Alt />
+          <Si.SiJavascript />
+          <Fa.FaReact />
+        </IconContext.Provider>
       </div>
       <div>
         <h3>Intermediate</h3>
-        <SiNextDotJs />
-        <SiNodeDotJs />
-        <FaGithub />
-        <SiVisualstudiocode />
-        <FaPython />
+        <IconContext.Provider value={{ className: "icon" }}>
+          <Si.SiNextDotJs />
+          <Si.SiNodeDotJs />
+          <Fa.FaGithub />
+          <Si.SiVisualstudiocode />
+          <Fa.FaPython />
+        </IconContext.Provider>
       </div>
       <div>
         <h3>Beginner</h3>
-        <SiGo />
-        <SiMongodb />
-        <SiTypescript />
+        <IconContext.Provider value={{ className: "icon" }}>
+          <Si.SiGo />
+          <Si.SiMongodb />
+          <Si.SiTypescript />
+        </IconContext.Provider>
       </div>
     </WrapSkill>
   );
