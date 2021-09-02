@@ -1,14 +1,26 @@
 import styled from "styled-components";
 
 const WrapAbout = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 2rem 1rem;
-  height: 100vh;
-  background: #5b91b4;
-  color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 1rem;
+    height: 100vh;
+    background: #3a3478;
+    color: white;
+    .me {
+        max-width: 40%;
+        p {
+            padding: 1rem 0;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+    img {
+        max-width: 40%;
+    }
 `;
 
 export default WrapAbout;
