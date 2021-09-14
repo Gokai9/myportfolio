@@ -9,22 +9,40 @@ export const WrapHeader = styled.header`
     h1 {
         font-family: "Zen Tokyo Zoo", cursive;
     }
-    nav ul {
+    .menu {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
-    nav ul li {
+    .menu li {
         list-style: none;
         padding-right: 1rem;
     }
-    nav ul li a {
+    .menu li a {
         text-decoration: none;
         color: white;
         padding: 1rem;
     }
-    nav ul li a:hover {
+    .menu li a:hover {
         color: black;
         border-bottom: 2px solid greenyellow;
+    }
+    @media only screen and (max-width: 768px) {
+        .menu {
+            position: absolute;
+            left: -100%;
+            width: 100%;
+            top: 5rem;
+            flex-direction: column;
+            background: gray;
+            transition: 0.3s;
+            padding: 1rem 0;
+        }
+        .menu li {
+            padding: 1rem 0;
+        }
+        .menu.active {
+            left: 0;
+        }
     }
 `;

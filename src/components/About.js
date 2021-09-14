@@ -10,11 +10,9 @@ const About = () => {
                 <h4>About me</h4>
                 <p>
                     I am from Blitar, i have a strong passion in programming and
-                    learn a new technology. I am really like to learn
-                    programming from tutorial on youtube or other developer blog
-                    and implementation what i have learn to code. Outside my
-                    programming activity i use my time to learn a new language
-                    from duolingo.
+                    learn a new technology. I am really like to learn a new
+                    thing and improve my skill. Outside my programming activity
+                    i use my time to learn a new language from duolingo.
                 </p>
                 <Button color="#ffc13b" bgcolor="#3a3478">
                     <a

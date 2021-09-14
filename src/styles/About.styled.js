@@ -21,6 +21,9 @@ const WrapAbout = styled.div`
     img {
         max-width: 40%;
     }
+    @media only screen and (max-width: 768px) {
+        flex-direction: column;
+    }
 `;
 
 export default WrapAbout;

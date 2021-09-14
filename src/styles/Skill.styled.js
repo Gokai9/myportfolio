@@ -10,12 +10,24 @@ const WrapSkill = styled.div`
         width: 40%;
     }
     div {
-        display: block;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         padding: 1rem;
         width: 40%;
         .icon {
             font-size: 3rem;
             padding: 1rem, 0;
+        }
+    }
+    .icon {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1frs;
+    }
+    @media only screen and (max-width: 768px) {
+        flex-direction: column;
+        img {
+            width: 80%;
+            height: 100vh;
         }
     }
 `;
