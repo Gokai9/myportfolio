@@ -9,7 +9,10 @@ const WrapAbout = styled.div`
     background: #3a3478;
     color: white;
     .me {
-        max-width: 40%;
+        width: 40%;
+        h2 {
+            padding: 1rem 0;
+        }
         p {
             padding: 1rem 0;
         }
@@ -19,10 +22,21 @@ const WrapAbout = styled.div`
         }
     }
     img {
-        max-width: 40%;
+        width: 40%;
     }
     @media only screen and (max-width: 768px) {
+        padding: 6px;
         flex-direction: column;
+        height: 100%;
+
+        .me {
+            height: 60vh;
+            width: 100%;
+        }
+        img {
+            width: 60%;
+            height: 40vh;
+        }
     }
 `;
 

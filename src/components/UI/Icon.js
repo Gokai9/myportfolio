@@ -11,7 +11,9 @@ const iconFamilies = {
 const StyledIcon = styled(({ family, name }) =>
     React.createElement(iconFamilies[family][name])
 )`
-    padding: 2rem;
+    .i {
+        margin: 20px;
+    }
 `;
 
 const Icon = ({ family, name }) => <StyledIcon family={family} name={name} />;

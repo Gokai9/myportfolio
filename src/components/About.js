@@ -6,12 +6,12 @@ const About = () => {
     return (
         <WrapAbout id="about">
             <section className="me">
-                <h2>Hi, My name is Mu'Tasim Billah a Frontend Developer</h2>
+                <h2>Hi, My name is Mu'Tasim Billah a Software Enginering</h2>
                 <h4>About me</h4>
                 <p>
                     I am from Blitar, i have a strong passion in programming and
-                    learn a new technology. I am really like to learn a new
-                    thing and improve my skill. Outside my programming activity
+                    really like to learn a new technology. i believe if someone
+                    else can, i definitely can. Outside my programming activity
                     i use my time to learn a new language from duolingo.
                 </p>
                 <Button color="#ffc13b" bgcolor="#3a3478">

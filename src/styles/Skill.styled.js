@@ -9,25 +9,31 @@ const WrapSkill = styled.div`
     img {
         width: 40%;
     }
-    div {
+    .container {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 1rem 0;
         width: 40%;
-        .icon {
-            font-size: 3rem;
-            padding: 1rem, 0;
-        }
     }
     .icon {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1frs;
+        margin: 10px 10px 10px 0;
+        font-size: 42px;
+        color: blue;
     }
     @media only screen and (max-width: 768px) {
         flex-direction: column;
+        height: 100%;
         img {
+            padding: 8px;
             width: 80%;
-            height: 100vh;
+            height: 50vh;
+        }
+        .diva {
+            height: 50vh;
+            margin: 8px;
+        }
+        .container {
+            width: 100%;
         }
     }
 `;
