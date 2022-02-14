@@ -1,10 +1,9 @@
-import WrapContact from "../styles/Contact.styled";
+import styles from "../styles/Contact.module.css";
 import Button from "./UI/Button";
-import code from "../assets/code.svg";
 
 const Contact = () => {
     return (
-        <WrapContact id="contact">
+        <div className={styles.container}>
             <section>
                 <h2>Contact Me</h2>
                 <p>Want to contact me? You can click button below!</p>
@@ -19,8 +18,7 @@ const Contact = () => {
                     </a>
                 </Button>
             </section>
-            <img src={code} alt="code" />
-        </WrapContact>
+        </div>
     );
 };
 

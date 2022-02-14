@@ -1,0 +1,21 @@
+.container {
+    display: block;
+    padding: 1rem;
+    background-color: wheat;
+}
+.wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+}
+.des {
+    padding-left: 1rem;
+    width: 60%;
+}
+.link {
+    background-color: azure;
+    color: black;
+    padding: 4px 1rem;
+    margin-right: 1rem;
+}
