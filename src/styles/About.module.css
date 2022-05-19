@@ -1,20 +1,21 @@
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 2rem 1rem;
+    padding: 0 50px;
     height: 100vh;
     color: black;
-    background-color: white;
+    background-color: #3a3478;
 }
 
 .title {
     padding: 1rem 0;
     font-size: 50px;
-    width: 50%;
 }
 .about {
     color: black;
+    display: block;
+    height: fit-content;
 }
 p {
     padding: 1rem 0;

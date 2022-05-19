@@ -9,7 +9,7 @@ const Project = () => {
                     <img
                         src={project.screenshot}
                         alt={project.name}
-                        style={{ height: 250, width: 250 }}
+                        className={styles.img}
                     />
                     <div className={styles.des}>
                         <h2>{project.name}</h2>

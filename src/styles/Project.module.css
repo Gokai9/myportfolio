@@ -1,13 +1,18 @@
 .container {
     display: block;
-    padding: 1rem;
     background-color: wheat;
+    padding: 10px 50px;
 }
 .wrapper {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 1rem;
+    margin: 1rem;
+    background-color: antiquewhite;
+}
+.img {
+    height: 250px;
+    width: 250px;
 }
 .des {
     padding-left: 1rem;
@@ -18,4 +23,23 @@
     color: black;
     padding: 4px 1rem;
     margin-right: 1rem;
+    border-radius: 10px;
+}
+.link:hover {
+    background-color: antiquewhite;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px 10px;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    .img {
+        width: 100%;
+    }
+    .des {
+        width: 80%;
+    }
 }

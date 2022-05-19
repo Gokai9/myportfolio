@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 import Footer from "./components/Footer";
 import Navbar from "./components/Header";
 import About from "./components/About";
-import Skill from "./components/Skill";
+import { Skill } from "./components/Skill";
 import Contact from "./components/Contact";
 import Project from "./components/Project";
 
